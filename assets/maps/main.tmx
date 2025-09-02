@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="6" nextobjectid="10">
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="16" tileheight="16" infinite="0" nextlayerid="6" nextobjectid="16">
  <tileset firstgid="1" source="tileset.tsx"/>
  <tileset firstgid="193" source="objects.tsx"/>
  <layer id="1" name="ground" width="30" height="20">
@@ -9,14 +9,14 @@
  </layer>
  <layer id="2" name="background" width="30" height="20">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFAwUYgZgJipnpaC8vEpt/1F6aAUkgloJiaTraOwpGwSgYBaNg4AEA/ZgAxQ==
+   eJxjYBgFAwUYgZgJipnpaC8vEpt/1F6aAUkgloJiaTraOwoGBnAi4VEwCkbBKAAAa1cA4A==
   </data>
  </layer>
  <objectgroup id="4" name="objects">
-  <object id="4" name="Player" gid="195" x="184.667" y="231.333" width="32" height="32"/>
-  <object id="5" gid="194" x="46.6667" y="202.667" width="41" height="63"/>
-  <object id="6" gid="194" x="285.333" y="182" width="41" height="63"/>
-  <object id="9" gid="193" x="349" y="118" width="80" height="112"/>
+  <object id="4" name="Player" gid="195" x="115.334" y="176.666" width="32" height="32"/>
+  <object id="13" gid="194" x="198" y="188.667" width="41" height="63"/>
+  <object id="14" gid="194" x="116.667" y="239.333" width="41" height="63"/>
+  <object id="15" gid="194" x="56" y="198" width="41" height="63"/>
  </objectgroup>
  <layer id="3" name="foreground" width="30" height="20">
   <data encoding="base64" compression="zlib">
